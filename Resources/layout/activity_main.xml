@@ -1,0 +1,42 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg">
+    <Button
+        android:text="Voix 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/btnVoix1" />
+    <Button
+        android:text="Voix 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toRightOf="@+id/btnVoix1"
+        android:id="@+id/btnVoix2" />
+    <Button
+        android:text="Voix Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btnVoix1"
+        android:id="@+id/btnVoixOff" />
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVoixOff"
+        android:id="@+id/tvTxt"
+        android:textColor="#ffed2e2e" />
+    
+</RelativeLayout>
